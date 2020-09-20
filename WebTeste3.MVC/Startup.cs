@@ -29,9 +29,19 @@ namespace WebTeste3.MVC
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        private readonly IWebHostEnvironment env;
+        public Startup(IConfiguration configuration, Microsoft.AspNetCore.Hosting.IWebHostEnvironment env)
         {
+           
+            this.env = env;
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(this.env.ContentRootPath)
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{this.env.EnvironmentName}.json", optional: true);
             Configuration = configuration;
+
+            builder.AddEnvironmentVariables();
+            Configuration = builder.Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -43,9 +53,13 @@ namespace WebTeste3.MVC
 
             services.AddOptions();
             //JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+            services.Configure<ApiTeste2>(options => Configuration.GetSection("ApiTeste2").Bind(options));
+
 
             services.AddHttpContextAccessor();
             services.TryAddSingleton<IActionContextAccessor, ActionContextAccessor>();
+            services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
 
             services.AddSingleton<ITempDataProvider, CookieTempDataProvider>();
 

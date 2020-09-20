@@ -20,7 +20,12 @@ namespace ApiCadastro
             {
                 new ApiScope(name: "ApiTeste1",   displayName: "ApiTeste1"),
                 new ApiScope(name: "ApiTeste2",   displayName: "ApiTeste2"),
-                new ApiScope(name: "ApiCadastro",   displayName: "ApiCadastro", userClaims: new [] { ClaimTypes.NameIdentifier, ClaimTypes.Name, ClaimTypes.Email, ClaimTypes.Role }),
+                new ApiScope(name: "ApiCadastro",
+                displayName: "ApiCadastro",
+                userClaims: new [] { ClaimTypes.NameIdentifier, 
+                                     ClaimTypes.Name, 
+                                     ClaimTypes.Email, 
+                                     ClaimTypes.Role }),
                 new ApiScope(name: "profile",   displayName: "profile", new string[]{
 
                                                               "name",
@@ -191,7 +196,7 @@ namespace ApiCadastro
 
                     new ClientClaim("Nome", "Alice Smith"),
                     new ClientClaim("Email", "alice.beltrao@gmail.com"),
-                    
+
              };
 
             return claims;
@@ -213,11 +218,6 @@ namespace ApiCadastro
                 Perfil = "admin",
                 Username = "amanda",
                 Password = "amanda"
-                //Claims =
-                //{
-                //    new Claim("Email",  "amanda@gmail.com"),
-                //    new Claim(JwtClaimTypes.Role, "admin")
-                //}
 
             });
 
@@ -232,11 +232,7 @@ namespace ApiCadastro
                 Perfil = "usuario",
                 Username = "anap",
                 Password = "anap"
-                //Claims =
-                //{
-                //    new Claim("Email",  "anapaula@gmail.com"),
-                //    new Claim(JwtClaimTypes.Role, "usuario")
-                //}
+
 
             });
 
@@ -245,5 +241,5 @@ namespace ApiCadastro
         }
 
 
-     }
+    }
 }
