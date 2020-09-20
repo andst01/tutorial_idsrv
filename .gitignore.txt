@@ -1,0 +1,10 @@
+ApiCadastro/bin/
+ApiCadastro/obj/
+ApiTeste1/bin/
+ApiTeste1/obj/
+ApiTeste2/bin/
+ApiTeste2/obj/
+WebTeste3.MVC/bin/
+WebTeste3.MVC/obj/
+TesteIdentity/bin/
+TesteIdentity/obj/

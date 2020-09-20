@@ -1,0 +1,16 @@
+C:\Projetos\TesteIdentityServer\TesteIdentity\bin\Debug\netcoreapp3.1\TesteIdentity.exe
+C:\Projetos\TesteIdentityServer\TesteIdentity\bin\Debug\netcoreapp3.1\TesteIdentity.deps.json
+C:\Projetos\TesteIdentityServer\TesteIdentity\bin\Debug\netcoreapp3.1\TesteIdentity.runtimeconfig.json
+C:\Projetos\TesteIdentityServer\TesteIdentity\bin\Debug\netcoreapp3.1\TesteIdentity.runtimeconfig.dev.json
+C:\Projetos\TesteIdentityServer\TesteIdentity\bin\Debug\netcoreapp3.1\TesteIdentity.dll
+C:\Projetos\TesteIdentityServer\TesteIdentity\bin\Debug\netcoreapp3.1\TesteIdentity.pdb
+C:\Projetos\TesteIdentityServer\TesteIdentity\bin\Debug\netcoreapp3.1\IdentityModel.dll
+C:\Projetos\TesteIdentityServer\TesteIdentity\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projetos\TesteIdentityServer\TesteIdentity\obj\Debug\netcoreapp3.1\TesteIdentity.AssemblyInfoInputs.cache
+C:\Projetos\TesteIdentityServer\TesteIdentity\obj\Debug\netcoreapp3.1\TesteIdentity.AssemblyInfo.cs
+C:\Projetos\TesteIdentityServer\TesteIdentity\obj\Debug\netcoreapp3.1\TesteIdentity.csproj.CoreCompileInputs.cache
+C:\Projetos\TesteIdentityServer\TesteIdentity\obj\Debug\netcoreapp3.1\TesteIdentity.csproj.CopyComplete
+C:\Projetos\TesteIdentityServer\TesteIdentity\obj\Debug\netcoreapp3.1\TesteIdentity.dll
+C:\Projetos\TesteIdentityServer\TesteIdentity\obj\Debug\netcoreapp3.1\TesteIdentity.pdb
+C:\Projetos\TesteIdentityServer\TesteIdentity\obj\Debug\netcoreapp3.1\TesteIdentity.genruntimeconfig.cache
+C:\Projetos\TesteIdentityServer\TesteIdentity\obj\Debug\netcoreapp3.1\TesteIdentity.csprojAssemblyReference.cache

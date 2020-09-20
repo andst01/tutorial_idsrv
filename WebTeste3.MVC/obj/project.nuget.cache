@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "dgSpecHash": "2CnnyIin9+jXfxQFjefC+ynDB92kaGGiPIRPmWZ/FUU1lkSjva5gHBr/QDA/7RT5abckH0i76pxZpOq5URnOUw==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\TesteIdentityServer\\WebTeste3.MVC\\WebTeste3.MVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\identitymodel\\4.3.1\\identitymodel.4.3.1.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\identitymodel.aspnetcore.oauth2introspection\\4.0.1\\identitymodel.aspnetcore.oauth2introspection.4.0.1.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\identityserver4\\4.0.0\\identityserver4.4.0.0.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\identityserver4.accesstokenvalidation\\3.0.1\\identityserver4.accesstokenvalidation.3.0.1.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\identityserver4.storage\\4.0.0\\identityserver4.storage.4.0.0.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.0.0\\microsoft.aspnetcore.authentication.jwtbearer.3.0.0.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\3.1.0\\microsoft.aspnetcore.authentication.openidconnect.3.1.0.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.6.0\\microsoft.identitymodel.jsonwebtokens.5.6.0.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\microsoft.identitymodel.logging\\5.6.0\\microsoft.identitymodel.logging.5.6.0.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\microsoft.identitymodel.protocols\\5.6.0\\microsoft.identitymodel.protocols.5.6.0.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\5.6.0\\microsoft.identitymodel.protocols.openidconnect.5.6.0.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.6.0\\microsoft.identitymodel.tokens.5.6.0.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.6.0\\system.identitymodel.tokens.jwt.5.6.0.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512",
+    "C:\\Users\\Anderson Tavares\\.nuget\\packages\\thinktecture.identitymodel.client\\4.0.1\\thinktecture.identitymodel.client.4.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Thinktecture.IdentityModel.Client 4.0.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Thinktecture.IdentityModel.Client",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
